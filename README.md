@@ -8,3 +8,5 @@
   ## DAG Web Link
 
   http://www.webgraphviz.com/
+
+  bazel query --nohost_deps --noimplicit_deps --output=graph "deps(//main:hello-world)"
